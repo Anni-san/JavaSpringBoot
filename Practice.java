@@ -8,10 +8,10 @@ class A{
 }
 class B extends A{
     public B(){
-        super(5);
         System.out.println("In B");
     }
     public B(int n){
+        this();
         System.out.println("In parameterized B");
     }
 }
